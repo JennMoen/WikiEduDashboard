@@ -135,7 +135,7 @@ class Replica
 
   # Query URL for the WikiEduDashboardTools repository
   def compile_query_url(endpoint, query)
-    base_url = 'https://tools.wmflabs.org/wikiedudashboard/'
+    base_url = 'https://tools.wmflabs.org/wikiedudashboard/v5/'
     "#{base_url}#{endpoint}?#{project_database_params}&#{query}"
   end
 
